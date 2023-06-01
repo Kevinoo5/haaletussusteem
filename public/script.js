@@ -1,3 +1,5 @@
+
+
 function updateTableWithData(data) {
     const tableBody = document.getElementById('results-table');
 
@@ -43,7 +45,6 @@ function startTimer() {
         } else {
             clearInterval(timerInterval); // Clear the interval to stop the timer
             document.getElementById('timer').innerText = 'Hääletamine on lõppenud';
-            document.getElementById('submit-button').disabled = true;
             document.getElementById('start-button').disabled = false;
         }
     }, 1000);
